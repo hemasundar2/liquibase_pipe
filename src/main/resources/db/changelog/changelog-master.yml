@@ -20,8 +20,6 @@ databaseChangeLog:
         value: SYSDATETIMEOFFSET()
 
         
-    # Releases
-    - include:
-       file: src/main/resources/db/changelog/changelog-2020_05.yml
+
 
         
