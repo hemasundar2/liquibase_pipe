@@ -39,22 +39,10 @@ databaseChangeLog:
                 name: CreatedBy
                 type: varchar(255)
                 constraints:
-                    nullable: false
-            - column:
-                name: CreatedDate
-                type: datetimeoffset(7)
-                defaultValueDate: ${now}                
-                constraints:
                     nullable: false          
             - column:
                 name: LastRevisedBy
                 type: varchar(255)
                 constraints:
                     nullable: false          
-            - column:
-                name: LastRevisedDate
-                type: datetimeoffset(7)
-                defaultValueDate: ${now}
-                constraints:          
-                    nullable: false
    
