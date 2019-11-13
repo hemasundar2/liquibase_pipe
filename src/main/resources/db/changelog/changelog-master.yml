@@ -21,8 +21,7 @@ databaseChangeLog:
 
         
     # Releases
-    - includeAll:
-       path: tables
-       relativeToChangelogFile: true
+    - include:
+       file: ums-liquibase/src/main/resources/db/changelog/changelog-2020_05.yml
 
         
