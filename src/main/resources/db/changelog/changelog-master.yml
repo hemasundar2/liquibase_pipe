@@ -1,0 +1,27 @@
+databaseChangeLog:
+
+    - property:
+        name: environment
+        value: SNDBX
+    - property:
+        name: database
+        value: UMS        
+    - property:
+        name: databaseName
+        value: ${environment}_${database}_CORE
+    - property:
+        name: databaseOwner
+        value: ums_app_user        
+    - property:
+        name: backupFileName
+        value: E:\DatabaseBackups\PRD_UMS_CORE-Full.bak
+    - property: 
+        name: now
+        value: SYSDATETIMEOFFSET()
+
+        
+    # Releases
+    - include:
+       file: db/changelog/changelog-2020_05.yml
+
+        
