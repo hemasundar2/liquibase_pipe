@@ -6,7 +6,7 @@ databaseChangeLog:
         changes:
         - createTable:
             schemaName: dbo
-            tableName: AccountStatusLkp2
+            tableName: AccountStatusLkp3
             columns:
             - column:
                 name: ID
@@ -16,7 +16,7 @@ databaseChangeLog:
                 incrementBy: 1
                 constraints:
                     primaryKey: true
-                    primaryKeyName: PK_AccountStatusLkp2
+                    primaryKeyName: PK_AccountStatusLkp3
                     nullable: false
           
             - column:
