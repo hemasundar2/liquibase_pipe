@@ -20,6 +20,9 @@ databaseChangeLog:
         value: SYSDATETIMEOFFSET()
 
         
-
+    # Releases
+    - includeAll:
+       path: tables
+       relativeToChangelogFile: true
 
         
