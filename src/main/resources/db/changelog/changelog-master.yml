@@ -22,7 +22,7 @@ databaseChangeLog:
         
     # Releases
     - include:
-       file: changelog-2020_05.yml
+       file: ..\changelog-2020_05.yml
        relativeToChangelogFile: true
 
         
