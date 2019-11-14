@@ -22,6 +22,7 @@ databaseChangeLog:
         
     # Releases
     - include:
-       file: .\db\changelog\changelog-2020_05.yml
+       file: db/changelog/changelog-2020_05.yml
+       relativeToChangelogFile: false
 
         
