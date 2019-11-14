@@ -21,8 +21,6 @@ databaseChangeLog:
 
         
     # Releases
-    - include:
-       file: changelog-2020_05.yml
+    - includeAll:
+       path: tables
        relativeToChangelogFile: true
-
-        
