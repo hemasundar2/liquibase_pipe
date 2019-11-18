@@ -21,6 +21,6 @@ databaseChangeLog:
 
         
     # Releases
-    - includeAll:
-       path: tables
-       relativeToChangelogFile: true
+   # - includeAll:
+    #   path: tables
+    #   relativeToChangelogFile: true
